@@ -13,8 +13,9 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/DannyBoyNg/UserAgentService</PackageProjectUrl>
     <RepositoryUrl>https://github.com/DannyBoyNg/UserAgentService.git</RepositoryUrl>
-    <PackageIcon>NgLogo.png</PackageIcon>
+    <PackageIcon>logo.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="NgLogo.png">
+    <None Include="logo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
