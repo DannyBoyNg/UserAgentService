@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace DannyBoyNg.Services
+namespace Ng.Services
 {
     /// <summary>
     /// Parsed UserAgent object

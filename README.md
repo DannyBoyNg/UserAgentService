@@ -11,7 +11,7 @@ Microsoft.Extensions.Options
 
 Install from Nuget
 ```
-Install-Package DannyBoyNg.UserAgentService
+Install-Package Ng.UserAgentService
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ Install-Package DannyBoyNg.UserAgentService
 Console application
 
 ```csharp
-using DannyBoyNg.Services;
+using Ng.Services;
 ...
 //You do not have to specify any settings if you want to use the defaults
 var settings = new UserAgentSettings
@@ -47,7 +47,7 @@ ASP.NET Core
 
 Register service with dependency injection in Startup.cs
 ```csharp
-using DannyBoyNg.Services;
+using Ng.Services;
 ...
 public void ConfigureServices(IServiceCollection services)
 {
@@ -69,7 +69,7 @@ public void ConfigureServices(IServiceCollection services)
 
 Inject IUserAgentService into a Controller or wherever you like
 ```csharp
-using DannyBoyNg.Services;
+using Ng.Services;
 ...
 public class MyController
 {

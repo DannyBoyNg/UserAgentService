@@ -1,4 +1,4 @@
-﻿namespace DannyBoyNg.Services
+﻿namespace Ng.Services
 {
     /// <summary>Default interface for UserAgentService</summary>
     public interface IUserAgentService

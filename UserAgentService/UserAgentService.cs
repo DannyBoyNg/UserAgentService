@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
 
-namespace DannyBoyNg.Services
+namespace Ng.Services
 {
     /// <summary>
     /// The UserAgent service
     /// </summary>
-    /// <seealso cref="DannyBoyNg.Services.IUserAgentService" />
+    /// <seealso cref="Ng.Services.IUserAgentService" />
     public class UserAgentService : IUserAgentService
     {
         /// <summary>

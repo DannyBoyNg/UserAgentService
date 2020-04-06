@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace DannyBoyNg.Services
+namespace Ng.Services
 {
     /// <summary>
     /// Contains static methods to help with Dependancy Injection
