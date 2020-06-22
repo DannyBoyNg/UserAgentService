@@ -58,7 +58,7 @@ namespace Ng.Services
         {
             {"OPR", "Opera"},
             {"Flock", "Flock"},
-            {"Edge", "Spartan"},
+            {"Edge", "Edge"},
             {"Chrome", "Chrome"},
             {"Opera.*?Version", "Opera"},
             {"Opera", "Opera"},
