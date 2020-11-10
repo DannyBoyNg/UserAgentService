@@ -195,7 +195,7 @@ namespace Ng.Services
             {"Uptimebot", "Uptimebot"},
         };
 
-        internal string? Agent = null;
+        internal string Agent = "";
 
         /// <summary>
         /// Gets or sets a value indicating whether this UserAgent is a browser.
