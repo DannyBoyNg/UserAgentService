@@ -16,8 +16,9 @@
     <RepositoryUrl>https://github.com/DannyBoyNg/UserAgentService.git</RepositoryUrl>
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <PackageReleaseNotes>Edge browser changed their user-agent. Update to properly detect Edge browser.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

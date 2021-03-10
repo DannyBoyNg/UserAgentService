@@ -9,7 +9,8 @@ namespace Ng.Services
     /// </summary>
     public class UserAgent
     {
-        internal static Dictionary<string, string> platforms = new Dictionary<string, string>() {
+        internal static Dictionary<string, string> platforms = new()
+        {
             {"windows nt 10.0", "Windows 10"},
             {"windows nt 6.3", "Windows 8.1"},
             {"windows nt 6.2", "Windows 8"},
@@ -54,12 +55,13 @@ namespace Ng.Services
             {"symbian", "Symbian OS"},
         };
 
-        internal static Dictionary<string, string> browsers = new Dictionary<string, string>()
+        internal static Dictionary<string, string> browsers = new()
         {
             {"OPR", "Opera"},
             {"Flock", "Flock"},
             {"Edge", "Edge"},
-            {"Chrome", "Chrome"},
+            {"Edg", "Edge"},
+            { "Chrome", "Chrome"},
             {"Opera.*?Version", "Opera"},
             {"Opera", "Opera"},
             {"MSIE", "Internet Explorer"},
@@ -87,7 +89,7 @@ namespace Ng.Services
             {"Vivaldi", "Vivaldi"},
         };
 
-        internal static Dictionary<string, string> mobiles = new Dictionary<string, string>()
+        internal static Dictionary<string, string> mobiles = new()
         {
             // Legacy
             {"mobileexplorer", "Mobile Explorer"},
@@ -172,7 +174,7 @@ namespace Ng.Services
             {"cellphone", "Generic Mobile"},
         };
 
-        internal static Dictionary<string, string> robots = new Dictionary<string, string>()
+        internal static Dictionary<string, string> robots = new()
         {
             {"googlebot", "Googlebot"},
             {"msnbot", "MSNBot"},
