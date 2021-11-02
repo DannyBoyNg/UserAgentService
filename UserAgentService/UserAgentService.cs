@@ -60,7 +60,7 @@ namespace Ng.Services
                 entry.SlidingExpiration = Settings.CacheSlidingExpiration;
                 if (Settings.AbsoluteExpirationRelativeToNow != null) entry.AbsoluteExpirationRelativeToNow = Settings.AbsoluteExpirationRelativeToNow;
                 entry.Size = 1;
-                return new UserAgent(userAgentString);
+                return new UserAgent(Settings, userAgentString);
             });
         }
 
