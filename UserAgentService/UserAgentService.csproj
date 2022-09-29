@@ -16,9 +16,9 @@
     <RepositoryUrl>https://github.com/DannyBoyNg/UserAgentService.git</RepositoryUrl>
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    <PackageReleaseNotes>Made the dictionaries public, so developers have more freedom.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added detection for Microsoft outlook</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

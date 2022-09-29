@@ -79,11 +79,12 @@ namespace Ng.Services
         /// </summary>
         public Dictionary<string, string> Browsers { get; } = new()
         {
+            {"Microsoft Outlook", "Microsoft Outlook"},
             {"OPR", "Opera"},
             {"Flock", "Flock"},
             {"Edge", "Edge"},
             {"Edg", "Edge"},
-            { "Chrome", "Chrome"},
+            {"Chrome", "Chrome"},
             {"Opera.*?Version", "Opera"},
             {"Opera", "Opera"},
             {"MSIE", "Internet Explorer"},
