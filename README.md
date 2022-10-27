@@ -1,5 +1,8 @@
 # UserAgentService
 
+<a href="https://www.nuget.org/packages/Ng.UserAgentService"><img src="https://img.shields.io/nuget/v/Ng.UserAgentService.svg" alt="NuGet Version" /></a> 
+<a href="https://www.nuget.org/packages/Ng.UserAgentService"><img src="https://img.shields.io/nuget/dt/Ng.UserAgentService.svg" alt="NuGet Download Count" /></a>
+
 A service to parse user-agent strings in C#. UserAgentService is extremely fast because it uses in-memory caching. UserAgentService only looks at the first 512 characters of the useragent string, it ignores the rest of the string. Most user-agent strings are within this limit but this limitation is introduced to protect itself from malicious, extremely long, hand crafted, user-agent strings.
 
 ## Dependancies
