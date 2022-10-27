@@ -16,9 +16,9 @@
     <RepositoryUrl>https://github.com/DannyBoyNg/UserAgentService.git</RepositoryUrl>
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    <PackageReleaseNotes>Added detection for Microsoft outlook</PackageReleaseNotes>
+    <PackageReleaseNotes>Fix bug where parsing null value would throw an exception</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

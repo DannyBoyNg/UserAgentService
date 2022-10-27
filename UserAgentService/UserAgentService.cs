@@ -54,7 +54,7 @@ namespace Ng.Services
         /// </returns>
         public UserAgent Parse(string? userAgentString)
         {
-            userAgentString = (userAgentString?.Length > Settings.UaStringSizeLimit) ? userAgentString?.Trim().Substring(0, Settings.UaStringSizeLimit) : userAgentString?.Trim();
+            userAgentString = ((userAgentString?.Length > Settings.UaStringSizeLimit) ? userAgentString?.Trim().Substring(0, Settings.UaStringSizeLimit) : userAgentString?.Trim()) ?? "";
             return Cache.GetOrCreate(userAgentString, entry =>
             {
                 entry.SlidingExpiration = Settings.CacheSlidingExpiration;
