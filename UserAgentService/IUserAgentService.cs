@@ -9,6 +9,6 @@
         /// <summary>Parses the specified user agent string.</summary>
         /// <param name="userAgentString">The user agent string.</param>
         /// <returns>An UserAgent object</returns>
-        UserAgent Parse(string userAgentString);
+        UserAgent? Parse(string userAgentString);
     }
 }

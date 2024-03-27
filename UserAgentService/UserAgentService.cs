@@ -52,7 +52,7 @@ namespace Ng.Services
         /// <returns>
         /// An UserAgent object
         /// </returns>
-        public UserAgent Parse(string? userAgentString)
+        public UserAgent? Parse(string? userAgentString)
         {
             userAgentString = ((userAgentString?.Length > Settings.UaStringSizeLimit) ? userAgentString?.Trim().Substring(0, Settings.UaStringSizeLimit) : userAgentString?.Trim()) ?? "";
             return Cache.GetOrCreate(userAgentString, entry =>
